@@ -1,10 +1,9 @@
-01) Implementar a estrutura da Pilha baseada em vetores, devendo possuir os métodos que:
+01 Implementar a estrutura da Pilha baseada em vetores, devendo possuir os métodos que:
 inserir ao topo (empilhar)
 remover do topo (desempilhar)
 verificar se a pilha está vazia
 
- 
-02) A partir da implementação da pilha, você deverá desenvolver um algoritmo que simule um desfazer/refazer de um editor de texto, que funciona da seguinte forma:
+02 A partir da implementação da pilha, você deverá desenvolver um algoritmo que simule um desfazer/refazer de um editor de texto, que funciona da seguinte forma:
 Usamos duas pilhas:
 pilhaDesfazer: armazena os estados anteriores do texto
 pilhaRefazer: armazena os estados futuros do texto
@@ -35,13 +34,12 @@ Algumas observações importantes:
 A pilha de refazer é limpa sempre que uma nova ação é realizada
 O sistema mantém um histórico limitado (dependendo da capacidade da pilha) 
 
-03) Implementar a estrutura da Fila, devendo possuir os seguintes métodos:
+03 Implementar a estrutura da Fila, devendo possuir os seguintes métodos:
 Inserir no final (enfileirar)
 Remover do início (desenfileirar)
 Verificar se a fila está vazia
 
- 
-04) A partir da implementação da fila, implemente um algoritmo de fila de impressão, onde os documentos são enfileirados e processados na ordem em que chegam, que funciona da seguinte forma:
+04 A partir da implementação da fila, implemente um algoritmo de fila de impressão, onde os documentos são enfileirados e processados na ordem em que chegam, que funciona da seguinte forma:
 Deve possuir uma classe Documento
 Esta classe deve ser implementada por você e possuir o nome e o tamanho
 O número de documentos na fila
